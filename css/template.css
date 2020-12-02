@@ -98,26 +98,32 @@ h1 {
   font-size: 38px;
   line-height: 48px;
   color: #a08c69;
+  font-weight: 900;
 }
 
 h2 {
   color: #a08c69;
+  font-weight: 900;
 }
 
 h3 {
   color: #a08c69;
+  font-weight: 900;
 }
 
 h4 {
   color: #a08c69;
+  font-weight: 900;
 }
 
 h5 {
   color: #a08c69;
+  font-weight: 900;
 }
 
 h6 {
   color: #a08c69;
+  font-weight: 900;
 }
 
 /* paragraph */
@@ -1987,7 +1993,7 @@ input[type="checkbox"] {
   padding: 0.625em 0.625em 0.625em 2em;
   border-top: 1px solid #a08c69;
   font-size: 1.25em;
-  font-weight: normal;
+  font-weight: 900;
   color: #a08c69;
   cursor: pointer;
 }
