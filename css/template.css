@@ -90,7 +90,7 @@ body {
   font-size: 14px;
   line-height: 32px;
   font-family: League Spartan, Helvetica, Arial, sans-serif;
-  background-color: #e0e0e0;
+  background-color: #b7b7b7;
 }
 
 /*** Typography ***/
@@ -656,7 +656,7 @@ input[type="checkbox"] {
   width: 100%;
   position: fixed;
   z-index: 99;
-  background: #e0e0e0;
+  background: #b7b7b7;
   -webkit-transition: height 0.2s ease-out;
   transition: height 0.2s ease-out;
 }
@@ -785,7 +785,7 @@ input[type="checkbox"] {
 }
 
 .sh__navOverlay {
-  background-color: #e0e0e0;
+  background-color: #b7b7b7;
   position: fixed;
   z-index: 999999;
   top: 0;
