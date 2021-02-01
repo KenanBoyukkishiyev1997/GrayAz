@@ -96,7 +96,10 @@ h1 {
 
 h2 {
   color: #a08c69;
-  font-weight: 900;
+  font-weight: bold;
+  padding: 30px 0;
+
+
 }
 
 h3 {
@@ -121,8 +124,8 @@ h6 {
 
 /* paragraph */
 p {
-  font-size: 14px;
-  line-height: 32px;
+  font-size: 15px;
+  line-height: 26px;
   margin: 0 0 20px;
 }
 
@@ -337,7 +340,7 @@ input[type="checkbox"] {
 }
 
 .sh__imgContainer-700 {
-  height: 700px;
+  height: 400px;
   overflow: hidden;
   /* 1200px - 1680px */
   /* 992px - 1199px */
@@ -656,11 +659,13 @@ input[type="checkbox"] {
 .sh__navbarContainer {
   display: table-cell;
   vertical-align: middle;
+  background-color: white;
+
 }
 
 /* sticky header */
 .header--is-sticked.sh__headerNavbar {
-  height: 60px;
+  height: 90px;
   -webkit-transition: height 0.2s ease-out;
   transition: height 0.2s ease-out;
 }
@@ -1227,6 +1232,7 @@ input[type="checkbox"] {
 /*** 13. About section ***/
 .sh__aboutSection {
   padding-top: 120px;
+  overflow: hidden;
 }
 
 /* caption */
@@ -1602,6 +1608,7 @@ input[type="checkbox"] {
 /* google map */
 .sh__mapSection {
   padding-top: 120px;
+  overflow-x: hidden;
 }
 
 #contactMap {
@@ -2098,7 +2105,7 @@ ol li span {
   margin: 10px auto;
   box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
   border-radius: 6px;
-  height: 50vh;
+  height: 200px;
   transition: 0.3s;
 }
 .card:hover {
@@ -2108,6 +2115,7 @@ box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
   text-align: center;
   color: #666666;
   font-weight: bold;
+  font-size: 12px;
 }
 .card-text{
       font-weight: 500;
