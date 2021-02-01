@@ -33,16 +33,8 @@
 /*** 4. Fonts settings ***/
 @font-face {
   font-family: "League Spartan";
-  src: url("../fonts/leaguespartan/leaguespartan-bold.eot");
-  src: url("../fonts/leaguespartan/leaguespartan-bold.eot@#iefix")
-      format("embedded-opentype"),
-    url("../fonts/leaguespartan/leaguespartan-bold.woff2") format("woff2"),
-    url("../fonts/leaguespartan/leaguespartan-bold.woff") format("woff"),
-    url("../fonts/leaguespartan/leaguespartan-bold.ttf") format("truetype"),
-    url("../fonts/leaguespartan/leaguespartan-bold.svg#league_spartanbold")
-      format("svg");
-  font-weight: bold;
-  font-style: normal;
+  src: url("../fonts/montserrat/Montserrat-Light.ttf");
+  src: url("../fonts/montserrat/Montserrat-Bold.ttf") format("ttf"),
 }
 
 /*** 5. Default styles ***/
