@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-	content:"\02C2";
+	content:"\e509";
 }
 [dir='rtl'] .slick-prev:before
 {
-	content:"\02C2";
+	content:"\e509";
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-	content:"\02C3";
+	content:"\e510";
 }
 [dir='rtl'] .slick-next:before
 {
-	content:"\02C3";
+	content:"\e510";
 }
 
 /* Dots */

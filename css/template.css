@@ -90,7 +90,7 @@ body {
   font-size: 14px;
   line-height: 32px;
   font-family: League Spartan, Helvetica, Arial, sans-serif;
-  background-color: #b7b7b7;
+  background-color: #f3f3f3;
 }
 
 /*** Typography ***/
@@ -656,7 +656,7 @@ input[type="checkbox"] {
   width: 100%;
   position: fixed;
   z-index: 99;
-  background: #b7b7b7;
+  background-color: #f3f3f3;
   -webkit-transition: height 0.2s ease-out;
   transition: height 0.2s ease-out;
 }
@@ -1198,6 +1198,8 @@ input[type="checkbox"] {
 /* slider arrows */
 .sh__homepageSlider .slick-slider .slick-prev:before,
 .sh__homepageSlider .slick-slider .slick-next:before {
+  background: white;
+  padding: 1rem;
   color: #000;
 }
 
@@ -1217,7 +1219,7 @@ input[type="checkbox"] {
 
 @media (min-width: 768px) {
   .sh__homepageSlider .slick-slider .slick-prev {
-    left: -3%;
+    left: -5%;
   }
 }
 
@@ -1238,7 +1240,7 @@ input[type="checkbox"] {
 /* caption */
 .sh__about-caption {
   background-color: #ffffff;
-  padding-top: 100px;
+  padding-top: 40px;
   padding-right: 120px;
   padding-left: 85px;
   width: 50%;
@@ -1645,12 +1647,12 @@ input[type="checkbox"] {
 
 /* contact us details */
 .sh__details-title {
-  font-size: 14px;
-  line-height: 24px;
-  color: #d1d1d1;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  font-size: 35px;
+    line-height: 44px;
+    color: #d1d1d1;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .sh__details-subtitle {
@@ -1684,8 +1686,10 @@ input[type="checkbox"] {
 }
 
 .sh__descriptionSection {
-  padding-top: 130px;
+  padding-top: 40px;
   padding-bottom: 120px;
+  background-color: #a18d68;
+
   /* 992px - 1199px */
   /* <= 992px */
 }
@@ -1706,7 +1710,7 @@ input[type="checkbox"] {
 
 /* Project photos */
 .sh__projectPhotos {
-  padding-top: 120px;
+  padding-top: 40px;
   padding-bottom: 90px;
   background-color: #f4f4f4;
 }
@@ -1862,8 +1866,8 @@ input[type="checkbox"] {
 }
 
 .sh__logo-img {
-  width: 200px;
-  height: 200px;
+  width: auto;
+  height: 160px;
 }
 .header--is-sticked .sh__logo-anch {
   left: 8%;
