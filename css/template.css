@@ -2125,3 +2125,16 @@ color: #66686b;
 .card-body{
   padding: 2rem;
 }
+
+
+.modal-body{
+  display: flex;
+   justify-content: space-between;
+}
+
+
+@media (max-width: 1200px) {
+  .modal-body{
+    flex-direction: column;
+  }
+}
